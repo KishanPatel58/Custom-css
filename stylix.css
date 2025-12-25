@@ -381,6 +381,7 @@ body {
     outline: 2px solid #157347;
     color: #157347;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-success::after{
     content: '';
@@ -414,6 +415,7 @@ body {
     outline: 2px solid #0B5ED7;
     color: #0B5ED7;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-primary::after{
     content: '';
@@ -447,6 +449,7 @@ body {
     outline: 2px solid #6C757D;
     color: #6C757D;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-secondary::after{
     content: '';
@@ -480,6 +483,7 @@ body {
     outline: 2px solid #FFC107;
     color: #FFC107;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-warning::after{
     content: '';
@@ -513,6 +517,7 @@ body {
     outline: 2px solid #0DCAF0;
     color: #0DCAF0;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-info::after{
     content: '';
@@ -546,6 +551,7 @@ body {
     outline: 2px solid #BB2D3B;
     color: #BB2D3B;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-danger::after{
     content: '';
@@ -579,6 +585,7 @@ body {
     outline: 2px solid #111;
     color: #111;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-dark::after{
     content: '';
@@ -612,6 +619,7 @@ body {
     outline: 2px solid #fff;
     color: #fff;
     overflow: hidden;
+    cursor: pointer;
 }
 .btn-spread-light::after{
     content: '';
