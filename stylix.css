@@ -621,6 +621,7 @@ body {
     overflow: hidden;
     cursor: pointer;
 }
+
 .btn-spread-light::after{
     content: '';
     width: 10px;
