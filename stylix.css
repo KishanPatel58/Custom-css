@@ -85,6 +85,7 @@ body {
     border: none;
     font-size: 1.1rem;
     font-family: sans-serif;
+    background: transparent;
 }
 .btn-lg{
     padding: 13px 20px;
@@ -92,6 +93,7 @@ body {
     border: none;
     font-size: 1.3rem;
     font-family: sans-serif;
+    background: transparent;
 }
 .btn-success{
     background-color: #157347;
@@ -369,4 +371,259 @@ body {
 }
 .btn-outline-light:hover::before{
     left: 0;
+}
+
+.btn-spread-success{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #157347;
+    color: #157347;
+    overflow: hidden;
+}
+.btn-spread-success::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #157347;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-success:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-success:hover{
+    color: white;
+}
+
+
+.btn-spread-primary{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #0B5ED7;
+    color: #0B5ED7;
+    overflow: hidden;
+}
+.btn-spread-primary::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #0B5ED7;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-primary:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-primary:hover{
+    color: white;
+}
+
+
+.btn-spread-secondary{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #6C757D;
+    color: #6C757D;
+    overflow: hidden;
+}
+.btn-spread-secondary::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #6C757D;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-secondary:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-secondary:hover{
+    color: white;
+}
+
+
+.btn-spread-warning{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #FFC107;
+    color: #FFC107;
+    overflow: hidden;
+}
+.btn-spread-warning::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #FFC107;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-warning:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-warning:hover{
+    color: white;
+}
+
+
+.btn-spread-info{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #0DCAF0;
+    color: #0DCAF0;
+    overflow: hidden;
+}
+.btn-spread-info::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #0DCAF0;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-info:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-info:hover{
+    color: white;
+}
+
+
+.btn-spread-danger{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #BB2D3B;
+    color: #BB2D3B;
+    overflow: hidden;
+}
+.btn-spread-danger::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #BB2D3B;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-danger:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-danger:hover{
+    color: white;
+}
+
+
+.btn-spread-dark{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #111;
+    color: #111;
+    overflow: hidden;
+}
+.btn-spread-dark::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #111;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-dark:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-dark:hover{
+    color: white;
+}
+
+
+.btn-spread-light{
+    position: relative;
+    padding-right: 26px;
+    border: none;
+    outline: 2px solid #fff;
+    color: #fff;
+    overflow: hidden;
+}
+.btn-spread-light::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s ease;
+}
+.btn-spread-light:hover::after{
+    border-radius: 0%;
+    width: 100%;
+    height: 100%;
+    right: 0%;
+}
+.btn-spread-light:hover{
+    color: #000;
 }
